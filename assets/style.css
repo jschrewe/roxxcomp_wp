@@ -1,0 +1,66 @@
+.roxxcomp-results {
+    margin-block: 1.5rem;
+    max-width: 100%;
+}
+
+.roxxcomp-results__title {
+    margin-bottom: 0.35rem;
+}
+
+.roxxcomp-results__stage {
+    margin-bottom: 1rem;
+}
+
+.roxxcomp-results__filter {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 0.5rem;
+    margin-bottom: 1rem;
+}
+
+.roxxcomp-results__filter select {
+    max-width: 100%;
+    min-height: 2.5rem;
+}
+
+.roxxcomp-results__filter button {
+    min-height: 2.5rem;
+}
+
+.roxxcomp-results__table-wrap {
+    max-width: 100%;
+    overflow-x: auto;
+}
+
+.roxxcomp-results__table {
+    width: 100%;
+    min-width: 18rem;
+    border-collapse: collapse;
+}
+
+.roxxcomp-results__table th,
+.roxxcomp-results__table td {
+    padding: 0.6rem 0.75rem;
+    text-align: left;
+    vertical-align: top;
+    border-bottom: 1px solid #ccc;
+    overflow-wrap: anywhere;
+}
+
+.roxxcomp-results__table th:first-child,
+.roxxcomp-results__table td:first-child,
+.roxxcomp-results__table th:last-child,
+.roxxcomp-results__table td:last-child {
+    width: 1%;
+    white-space: nowrap;
+}
+
+.roxxcomp-results__notice {
+    border-left: 4px solid currentColor;
+    padding-left: 0.75rem;
+}
+
+.roxxcomp-results__status:empty {
+    display: none;
+}
